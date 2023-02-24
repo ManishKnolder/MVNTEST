@@ -1,0 +1,40 @@
+Step 1: Select a directory and open the terminal from that directory and start writing command
+          mvn archetype:generate
+          2007
+          8
+          com.knoldus
+          string-manipulation       ---->Project Name
+          1.0-SNAPSHOT
+          com.knoldus
+
+Step 2: Now move inside the Project Name directory but before open the IntelliJ and  inside it's pom add the packaging. //<packaging>pom</packaging>
+        And open the terminal inside the string-manipulation directory and follow the same step such as written above.
+        
+          mvn archetype:generate
+          2007
+          8
+          com.knoldus
+          modify-string      ---->Module Name
+          1.0-SNAPSHOT
+          com.knoldus
+          
+Step 3:    Now move inside the Project Name directory but before open the IntelliJ and  inside it's pom add the packaging. //<packaging>pom</packaging>
+        And open the terminal inside the modify-string directory and follow the same step such as written above.
+        
+          mvn archetype:generate
+          2007
+          8
+          com.knoldus
+          string-api      ---->Module 1
+          1.0-SNAPSHOT
+          com.knoldus
+          
+Step 4: Inside the modify-string directory follow these command in the directory.
+        
+          mvn archetype:generate
+          2007
+          8
+          com.knoldus
+          string-impl      ---->Module 2
+          1.0-SNAPSHOT
+          com.knoldus
